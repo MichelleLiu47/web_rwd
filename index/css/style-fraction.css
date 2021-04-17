@@ -1,0 +1,182 @@
+.slider-wrapper{
+   
+    background-size:100%;
+    width:100%;
+    max-height: 100%;
+    position:relative;
+    overflow:hidden;
+    clear:both;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .slider-wrapper
+    {
+        max-height:267px;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+
+    .slider-wrapper
+    {
+        max-height:230px;
+    }
+}
+@media only screen and (min-width: 751px) and (max-width: 900px){
+
+    .slider-wrapper
+    {
+        max-height:190px;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 750px){
+	.slider {
+   position: relative;
+    width:140%; height:140%; left:-100px;
+}
+
+    .slider-wrapper
+    {
+       height:180px;
+    }
+	.slider .slide2 .sub-line,
+.slider .slide3 .sub-line{
+ 
+    font-size:13px !important;
+}	
+}
+@media only screen and (min-width: 480px) and (max-width: 640px){
+
+.slider{
+   position: relative;
+    width:150%; height:150%;left:-90px;
+   
+}
+
+    .slider-wrapper
+    {
+        height:185px;
+    }
+		
+.slider .slide2 .sub-line,
+.slider .slide3 .sub-line{
+ 
+    font-size:13px !important;
+}	
+}
+@media only screen and (max-width: 479px){
+	
+.slider .slide2 .sub-line,
+.slider .slide3 .sub-line{
+ 
+    font-size:13px !important;
+}
+	
+.slider {
+   position: relative;
+    width:170%; height:170%; left:-130px;
+}
+
+    .slider-wrapper
+    {
+        height:165px;
+    }
+	
+
+	
+	
+}
+@media only screen and (min-width: 359px) and (max-width: 479px){
+	
+.slider .slide2 .sub-line,
+.slider .slide3 .sub-line{
+ 
+    font-size:12px !important;
+}
+	
+.slider {
+   position: relative;
+    width:160%; height:160%; left:-105px;
+}
+
+    .slider-wrapper
+    {
+        height:135px;
+    }
+	
+
+	
+	
+}
+
+/* ELEMENT STYLES */
+
+.slider p{
+	font-family:Microsoft JhengHei!important;
+    white-space: nowrap;
+    text-transform:uppercase;
+}
+
+/*-----------Slide-1------------*/
+.slider .slide1 .slide-heading
+{
+    background: #373B3F;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 600;
+    font-family:Microsoft JhengHei!important;
+    text-transform:capitalize;
+    padding:0.7% 0.9%;
+    border-radius: 2px;
+    box-sizing: content-box;
+}
+.slider .slide1 .slide-heading span
+{
+    color:#727CB6;
+}
+
+/*-----------Slide-2------------*/
+.slider .slide2 .slide-heading,
+.slider .slide3 .slide-heading{
+    background:#555e87;
+    color: #fff;
+	font-family:Microsoft JhengHei!important;
+    font: 600 36px "open sans", sans-serif;
+    padding: 0.8% 1.8%;
+    border-radius: 4px;
+    box-sizing:content-box;
+}
+
+.slider .slide2 .sub-line,
+.slider .slide3 .sub-line{
+    background:#fff;
+    color: #727CB6;
+    font-size:22px;
+    font-weight: normal;
+    text-align:center;
+    font-weight: 500;
+    padding:0.8% 1%;
+    border-radius: 2px;
+    box-sizing:content-box;
+}
+
+/*------------Slide-3-------------*/
+.slider .slide3 .slide-heading
+{
+	font-family:Microsoft JhengHei!important;
+    background: #336699;
+	border-radius:4px;
+}
+.slider .slide3 .slide-text
+{
+	font-family:Microsoft JhengHei!important;
+    color: #5B5B5B;
+    background: rgba(255,255,255,0.6);
+    font-size: 130%;
+    line-height: 150% !important;
+    font-family:Microsoft JhengHei!important;
+    font-weight: 400;
+    text-transform:none;
+    letter-spacing: -1px;
+    margin-top: 1.5%;
+    padding: .2% 1%;
+}
+
